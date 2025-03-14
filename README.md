@@ -50,3 +50,9 @@ Capturing space debris is complex, as many objects tumble at angular rates betwe
 <p align="center">
   <img src="https://github.com/whitehole07/contactless-detumbling/assets/34631826/41386bbd-be8f-4466-843d-66ff53a2f5e1" alt="Robotic arm control" width="60%">
 </p>
+
+## **Modular Architecture**
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/79e88098-34d6-4634-864c-4b26632c2f5e" alt="Robotic arm control" width="70%">
+</p>
