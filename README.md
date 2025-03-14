@@ -31,7 +31,7 @@
 # **RL-based Robotic Trajectory Planning for Efficient Eddy Current Debris Detumbling**
 
 
-Master’s Thesis at **Politecnico di Milano** & **Beihang University** (北京航空航天大学)  
+Master’s Thesis at **Politecnico di Milano** & **Beihang University** (中文: 北京航空航天大学)  
 
 Author: **Daniele Agamennone**   
 Supervisor: Prof. **Zhong Rui**<sup>1</sup>, Prof. **Massari Mauro**<sup>2</sup>   
