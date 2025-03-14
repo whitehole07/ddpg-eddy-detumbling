@@ -1,3 +1,7 @@
+# ddpg-eddy-detumbling
+
+
+
 <p align="center">
   <!-- University Logos -->
   <img src="https://github.com/user-attachments/assets/ddf8c6b1-e209-417e-9d59-7d3ea88460bb" alt="Politecnico di Milano" width="150">
@@ -24,13 +28,18 @@
 </p>
 
 
-# **ddpg-eddy-detumbling: Reinforcement Learning for Eddy Current-based Space Debris Detumbling**
+# **RL-based Robotic Trajectory Planning for Efficient Eddy Current Debris Detumbling**
 
 
-**Master’s Thesis – Politecnico di Milano & Beihang University (北京航空航天大学)**  
-Author: Daniele Agamennone 
-Supervisor: [Supervisor’s Name]  
-Affiliation: Department of Aerospace Engineering, Politecnico di Milano  
+Master’s Thesis at **Politecnico di Milano** & **Beihang University** (北京航空航天大学)  
+
+Author: **Daniele Agamennone**   
+Supervisor: Prof. **Zhong Rui**<sup>1</sup>, Prof. **Massari Mauro**<sup>2</sup>   
+
+Affiliations: 
+1. **School of Astronautics**, Beihang University, Beijing.
+2. **Department of Aerospace Engineering** (DAER), Politecnico di Milano, Milan.
+
 Year: 2024  
 
 ---
