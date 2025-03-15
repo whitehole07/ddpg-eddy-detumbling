@@ -54,5 +54,5 @@ Capturing space debris is complex, as many objects tumble at angular rates betwe
 ## **Modular Architecture**
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/79e88098-34d6-4634-864c-4b26632c2f5e" alt="Robotic arm control" width="70%">
+  <img src="https://github.com/user-attachments/assets/300ce787-87a5-43da-9ba3-491371e74291" alt="Robotic arm control" width="70%">
 </p>
