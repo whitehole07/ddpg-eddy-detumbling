@@ -55,7 +55,7 @@ Capturing space debris is complex, as many objects tumble at angular rates betwe
 
 
 ## **Modular SW Architecture**
-The software architecture follows a modular design[^1]:  
+The software architecture follows a modular and independent design[^1]:  
 - **ODE Solver**: Utilizes SUNDIALS' CVODE solver for fast and accurate integration of multi-body coupled dynamics.  
 - **Equations of Motion (EoMs)**: Supplies the integrator with pre-computed EoMs based on the chosen Denavit-Hartenberg parameters.  
 - **DDPG**: Handles online trajectory planning and action generation at each timestep.  
