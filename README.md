@@ -62,7 +62,7 @@ The software architecture follows a modular and independent design[^1]:
 - **Reward Function**: A hybrid formulation integrating dense, sparse, and shaped components for distance, α-angle, and inverse kinematics.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/300ce787-87a5-43da-9ba3-491371e74291" alt="Robotic arm control" width="80%">
+  <img src="https://github.com/user-attachments/assets/eca794c4-78a2-4003-9456-279f9d0f4862" alt="Robotic arm control" width="80%">
 </p>
 
 [^1]: The environment (implemented in C++) and the agent (implemented in Python) communicate via a language binding using **cppyy**. This allows Python to directly interact with C++ classes, functions, and libraries. This setup is advantageous as the main training loop runs in Python, while the integrator—representing the simulation's computational bottleneck—executes in C++. The use of **cppyy** ensures efficient data exchange, including states and actions, between the two blocks.
