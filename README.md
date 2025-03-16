@@ -4,9 +4,9 @@
 
 <p align="center">
   <!-- University Logos -->
-  <img src="https://github.com/user-attachments/assets/ddf8c6b1-e209-417e-9d59-7d3ea88460bb" alt="Politecnico di Milano" width="150">
+  <img src="https://github.com/user-attachments/assets/a3130fe7-ddb5-442c-9434-3c6012cffc80" alt="Politecnico di Milano" width="150">
   <span>&nbsp;&nbsp;&nbsp;</span>
-  <img src="https://github.com/user-attachments/assets/ed48084c-43d3-4475-805d-36d336d2379f" alt="Beihang University" width="150">
+  <img src="https://github.com/user-attachments/assets/d5a4a173-5024-4e1b-a8d0-90a5da045b1f" alt="Beihang University" width="150">
   <br><br>
 
   <!-- Badges -->
