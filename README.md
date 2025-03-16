@@ -2,9 +2,10 @@
 
 
 
+
 <p align="center">
   <!-- University Logos -->
-  <img src="https://github.com/user-attachments/assets/a3130fe7-ddb5-442c-9434-3c6012cffc80" alt="Politecnico di Milano" width="150">
+  <img src="https://github.com/user-attachments/assets/d8abe935-2fa4-4579-95e8-b875047952b6" alt="Politecnico di Milano" width="150">
   <span>&nbsp;&nbsp;&nbsp;</span>
   <img src="https://github.com/user-attachments/assets/d5a4a173-5024-4e1b-a8d0-90a5da045b1f" alt="Beihang University" width="150">
   <br><br>
