@@ -49,7 +49,7 @@ Year: 2024
 Capturing space debris is complex, as many objects tumble at angular rates between 3°/s and 30°/s, increasing collision risk during collection and potentially producing further fragments. Detumbling debris using **Eddy current-based methods** has shown promise as a contactless solution, but existing approaches, such as those employing chaser spacecraft with along-track electromagnets, can take up to 14 days to fully detumble debris. This research proposes a novel approach employing a robotic arm equipped with an electromagnetic end-effector, enabling the application of a magnetic field with a variable direction. It is found that to **maximize the Eddy Current Torque (ECT)**, it is essential to maintain perpendicularity between the relative angular velocity (RAV) vector and the applied magnetic field, a trajectory that is rarely within the manipulator's workspace. A near-optimal feasible solution is achieved using the **Deep Deterministic Policy Gradient (DDPG)** algorithm. The results demonstrate that the agent can learn a policy that allows detumbling in just 4 days, a **71.73% reduction** compared to the along-track method. Additionally, the agent's robustness to stochastic uncertainties in sensor measurements of the RAV is tested by developing statistical ensemble models comprising 500 instances of the trained agent for noise standard deviations of 0.05 rad/s and 0.2 rad/s. The test results show how the agent exhibits **strong robustness** against uncertainties in the RAV in both scenarios, with just mild performance decreases of 2.54% and 10.91%, respectively, further validating the effectiveness of this approach for potential real-world applications.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/514af2d1-c7b3-45c7-b59e-a1aec0112cc9" alt="Robotic arm control" width="70%">
+  <img src="https://github.com/user-attachments/assets/95fe87bb-a764-42d1-aa1a-f805f63f4831" alt="Robotic arm control" width="70%">
 </p>
 
 
@@ -62,7 +62,7 @@ The software architecture follows a modular and independent design[^1]:
 - **Reward Function**: A hybrid formulation integrating dense, sparse, and shaped components for distance, α-angle, and inverse kinematics.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/eca794c4-78a2-4003-9456-279f9d0f4862" alt="Robotic arm control" width="80%">
+  <img src="https://github.com/user-attachments/assets/eca794c4-78a2-4003-9456-279f9d0f4862" alt="Robotic arm control" width="85%">
 </p>
 
 [^1]: The environment (implemented in C++) and the agent (implemented in Python) communicate via a language binding using **cppyy**. This allows Python to directly interact with C++ classes, functions, and libraries. This setup is advantageous as the main training loop runs in Python, while the integrator—representing the simulation's computational bottleneck—executes in C++. The use of **cppyy** ensures efficient data exchange, including states and actions, between the two blocks.
